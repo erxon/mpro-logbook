@@ -5,7 +5,7 @@ import OnDuties from "./components/on-duties";
 
 export default function Page() {
   return (
-    <div className="p-4 mb-4">
+    <div className="p-2 md:p-4 mb-4">
       <Header>
         <ExpectedDuty names={["John Doe", "Jane Doe"]} />
       </Header>
