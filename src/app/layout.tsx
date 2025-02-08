@@ -3,7 +3,6 @@ import "./global.css";
 import Navigation from "./components/navigation";
 import UpcomingEvents from "./components/upcoming-events/upcoming-events";
 import { CalendarIcon } from "@heroicons/react/24/outline";
-import { Button } from "@/components/ui/button";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import {
   Drawer,
@@ -21,6 +20,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     <html>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="html5-qrcode.min.js" async />
       </head>
       <body className="bg-neutral-100">
         <div className="p-4">
